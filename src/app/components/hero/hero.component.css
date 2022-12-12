@@ -1,0 +1,65 @@
+body {
+	background: white;
+	position: relative;
+}
+
+* {
+	color: white;
+}
+section.header {
+	position: fixed;
+	max-width: 1240px;
+	padding: 20px;
+	top:0;
+	margin:0 auto;
+	width:100%;
+	left:50%;
+	transform: translateX(-50%);
+	background-color: rgba(255,255,255,.2);
+	z-index:4;
+	div.logo {
+		height: 30px;
+		width: 150px;
+		background: gray;
+	}
+}
+section.u4m-hero {
+	background-color: black;
+	padding:0 20px;
+	.hero-inner {
+		max-width: 1240px;
+		width: 100%;
+		padding: 0 20px;
+		display: flex;
+		align-items: center;
+		margin: 0 auto;
+		background-color: rgba(red,.2);
+		padding:200px 0 120px;
+	}
+	div.copy {
+		max-width: 750px;
+		margin-left: 0;
+		margin-right: -72px;
+		display: flex;
+		flex-direction: column;
+		z-index: 3;
+		h1 {font-size: 80px; margin-bottom: 24px; margin-top: 12px;}
+		p {
+			max-width: 487px;
+			margin-right: auto;
+			font-size: 18px;
+			margin-top:0;
+		}
+	}
+	div.media {
+		background:rgba(green,.3);
+		position: relative;
+    display: flex;
+		flex-grow:1;
+		img {
+			width: auto;
+			height:100%;
+			flex-grow:1;
+		}
+	}
+}
